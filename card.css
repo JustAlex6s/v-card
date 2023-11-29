@@ -20,8 +20,8 @@ body {
 .card {
     margin-top: 50px;
     background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, 0.1);
     overflow: hidden;
     width: 100%;
     max-width: 800px;
