@@ -6,7 +6,7 @@ body {
     height: 100%;
     width: 100%;
     margin: 20px;
-    background-image: url("andrey-haimin-q2Fyzn-KJOQ-unsplash.jpg");
+    background-color: white;
 }
 
 .imgmoi {
@@ -117,4 +117,35 @@ table {
         height: 30px;
     margin: 20px 0px 0px 40px;
     transition: transform 0.5s ease-out;
+}
+
+@media (max-width: 600px){
+
+    h2{
+        font-size: 17px;
+    }
+   
+
+.content {
+    text-align: center;
+    font-size:15px;
+}
+
+.card-body{
+    padding: 20px 10px 10px 10px;
+    /* display: inline; */
+    /* text-align: center; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+body{
+    margin : auto;
+    
+}
+.card{
+    margin-top: 20px;
+
+}
+
 }
